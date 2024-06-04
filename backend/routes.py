@@ -1,9 +1,9 @@
 from . import app
 import os
 import json
-# import pymongo
+import pymongo
 from flask import jsonify, request, make_response, abort, url_for  # noqa; F401
-# from pymongo import MongoClient
+from pymongo import MongoClient
 from bson import json_util
 from pymongo.errors import OperationFailure
 from pymongo.results import InsertOneResult
